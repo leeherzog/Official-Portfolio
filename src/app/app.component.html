@@ -1,15 +1,12 @@
-<nav class="navbar navbar-expand-lg">
+ <nav class="navbar navbar-default navbar-fixed-top navbar-expand-lg">
   <div class="navbar-collapse">        
   <ul id="nav-left" class="nav navbar-nav">            
-    <li class="nav-home"><a href="#home">Home</a></li>         
-       <li class="nav-projects"><a href="#projects">Projects</a></li>        
-           <li class="nav-publications"><a href="#publications">Publications</a></li>        
-               <li class="nav-talks"><a href="#talks">Talks</a></li>       
-                    <li class="nav-teaching"><a href="#teaching">Teaching</a></li>       
-                         <li class="nav-press"><a href="#press">Press</a></li>        
-                             <li class="nav-cv"><a href="pdf/Cohn_CV.pdf" target="_blank">CV</a></li>    
-                                </ul>   
-                               </div>
+    <li class="nav-home" [routerLink]="['']">Home</li>         
+       <li class="nav-projects" [routerLink]="['']">Experience</li>        
+           <li class="nav-publications" [routerLink]="['publications']">Publications</li>            
+          <li class="nav-cv"[routerLink]="['']">CV</li>    
+      </ul>   
+    </div>
 </nav>
 
 <router-outlet></router-outlet>

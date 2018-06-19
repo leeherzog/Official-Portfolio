@@ -21,12 +21,14 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import {AppRoutingModule} from './/app-routing.module';
 import { HomePageComponent } from './home-page/home-page.component';
+import { PublicationsComponent } from './publications/publications.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomePageComponent
+    HomePageComponent,
+    PublicationsComponent
   ],
   imports: [
     BrowserModule,
