@@ -1,0 +1,16 @@
+.span {
+    flex: auto;
+    align-content: right;
+}
+
+.mainFrame{
+    margin-top: 65px;
+}
+
+.description {
+    text-align: justify;
+}
+
+h1 {
+    font-size:  250%;
+}
